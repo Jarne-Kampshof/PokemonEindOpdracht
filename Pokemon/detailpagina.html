@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Pokedex</h1>
+  </header>
+
+  <main>
+  <p id="loading">Laden...</p>
+
+  <div id="pokemon-detail" hidden>
+    <h2 id="pokemon-id-naam"></h2>
+    <img id="pokemon-image" src="" alt="" />
+    <div id="info-wrapper">
+      <div id="links">
+        <div id="pokemon-types"></div>
+        <p id="pokemon-abilities"></p>
+      </div>
+      <div id="rechts">
+        <p id="pokemon-stats"></p>
+      </div>
+    </div>
+  </div>
+  <div id="btn-wrapper">
+    <button id="btn-vorige" class="paginering-knop">&#8592; Vorige</button>
+    <button id="btn-volgende" class="paginering-knop">Volgende &#8594;</button>
+  </div>
+
+  </main>
+
+  <script src="detail.js"></script>
+</body>
+
+</html>
